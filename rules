@@ -2,7 +2,7 @@ proxy-groups:
   - name: Proxies
     include-all: true
     type: select
-  - name:Auto 
+  - name: Auto 
     type: url-test
     include-all: true
     interval: 300
