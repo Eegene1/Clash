@@ -101,7 +101,6 @@ proxy-groups:
       - SG
       - JP
       - US
-      - DIRECT
   - name: HK
     include-all: true
     filter: (?i)港|HK|hk|Hong Kong|HongKong|hongkong
