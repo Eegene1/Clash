@@ -17,7 +17,7 @@ proxy-groups:
       - SG
       - JP
       - US
-  - name: OpenAi
+  - name: OpenAI
     type: select
     proxies:
       - Proxies
