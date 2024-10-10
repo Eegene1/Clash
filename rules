@@ -73,7 +73,7 @@ proxy-groups:
       - TW
       - Proxies
       - Auto
-  - name: Bilibili
+  - name: BiliBili
     type: select
     proxies:
       - DIRECT
@@ -248,7 +248,7 @@ rules:
   - "RULE-SET,Gemini,Gemini"
   - "RULE-SET,Netflix,Netflix"
   - "RULE-SET,Bahamut,Bahamut"
-  - "RULE-SET,Bilibili,Bilibili"
+  - "RULE-SET,BiliBili,BiliBili"
   - "RULE-SET,GlobalMedia,GlobalMedia"
   - "RULE-SET,Lan,DIRECT"
   - "RULE-SET,ChinaMax,DIRECT"
