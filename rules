@@ -1,5 +1,12 @@
 proxy-groups:
   - name: Proxies
+    proxies:
+      - Auto
+      - HK
+      - TW
+      - SG
+      - JP
+      - US
     include-all: true
     type: select
   - name: Auto 
