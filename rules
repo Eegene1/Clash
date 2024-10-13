@@ -100,6 +100,17 @@ proxy-groups:
       - SG
       - JP
       - US
+  - name: Steam
+    type: select
+    proxies:
+      - Eee
+      - Auto
+      - DIRECT
+      - HK
+      - TW
+      - SG
+      - JP
+      - US
   - name: PayPal
     type: select
     proxies:
@@ -252,6 +263,7 @@ rules:
   - "RULE-SET,Microsoft,Microsoft"
   - "RULE-SET,TikTok,TikTok"
   - "RULE-SET,Apple,Apple"
+  - "RULE-SET,Steam,Steam"
   - "RULE-SET,PayPal,PayPal"
   - "RULE-SET,Telegram,Telegram"
   - "RULE-SET,OpenAI,OpenAI"
