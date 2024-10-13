@@ -1,12 +1,15 @@
 proxy-groups:
-  - name: Proxies
+  - name: Eee
     proxies:
+      - Proxies
       - Auto
       - HK
       - TW
       - SG
       - JP
       - US
+    type: select
+  - name: Proxies
     include-all: true
     type: select
   - name: Auto 
@@ -17,7 +20,7 @@ proxy-groups:
   - name: Telegram
     type: select
     proxies:
-      - Proxies
+      - Eee
       - Auto
       - HK
       - TW
@@ -27,7 +30,7 @@ proxy-groups:
   - name: OpenAI
     type: select
     proxies:
-      - Proxies
+      - Eee
       - Auto
       - HK
       - TW
@@ -37,7 +40,7 @@ proxy-groups:
   - name: Gemini
     type: select
     proxies:
-      - Proxies
+      - Eee
       - Auto
       - HK
       - TW
@@ -47,7 +50,7 @@ proxy-groups:
   - name: GlobalMedia
     type: select
     proxies:
-      - Proxies
+      - Eee
       - Auto
       - HK
       - TW
@@ -57,7 +60,7 @@ proxy-groups:
   - name: Netflix
     type: select
     proxies:
-      - Proxies
+      - Eee
       - Auto
       - HK
       - TW
@@ -67,7 +70,7 @@ proxy-groups:
   - name: TikTok
     type: select
     proxies:
-      - Proxies
+      - Eee
       - Auto
       - HK
       - TW
@@ -78,7 +81,7 @@ proxy-groups:
     type: select
     proxies:
       - TW
-      - Proxies
+      - Eee
       - Auto
   - name: BiliBili
     type: select
@@ -89,7 +92,7 @@ proxy-groups:
   - name: Microsoft
     type: select
     proxies:
-      - Proxies
+      - Eee
       - Auto
       - DIRECT
       - HK
@@ -100,7 +103,7 @@ proxy-groups:
   - name: PayPal
     type: select
     proxies:
-      - Proxies
+      - Eee
       - Auto
       - HK
       - TW
@@ -110,7 +113,7 @@ proxy-groups:
   - name: Apple
     type: select
     proxies:
-      - Proxies
+      - Eee
       - Auto
       - DIRECT
       - HK
@@ -260,4 +263,4 @@ rules:
   - "RULE-SET,Lan,DIRECT"
   - "RULE-SET,ChinaMax,DIRECT"
   - "GEOIP,CN,DIRECT"
-  - "MATCH,Proxies"
+  - "MATCH,Eee"
