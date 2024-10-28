@@ -121,7 +121,7 @@ proxy-groups:
       - SG
       - JP
       - US
-  - name: Apple
+  - name: Spotify
     type: select
     proxies:
       - Eee
@@ -175,10 +175,10 @@ rule-providers:
     url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini_No_Resolve.yaml"
     interval: 86400
     path: ./ruleset/Gemini_No_Resolve.yaml
-  Apple:
+  Spotify:
     type: http
     behavior: classical
-    url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Apple/Apple_Classical_No_Resolve.yaml"
+    url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Spotify/Spotify_No_Resolve.yaml"
     interval: 86400
     path: ./ruleset/Apple_No_Resolve.yaml
   BiliBili:
@@ -193,7 +193,7 @@ rule-providers:
     url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_No_Resolve.yaml"
     interval: 86400
     path: ./ruleset/Netflix_No_Resolve.yaml
-  Disney:
+  Disney+:
     type: http
     behavior: classical
     url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney_No_Resolve.yaml"
@@ -262,7 +262,8 @@ rule-providers:
 rules:
   - "RULE-SET,Microsoft,Microsoft"
   - "RULE-SET,TikTok,TikTok"
-  - "RULE-SET,Apple,Apple"
+  - "RULE-SET,Disney+,Disney+"
+  - "RULE-SET,Spotify,Spotify"
   - "RULE-SET,Steam,Steam"
   - "RULE-SET,PayPal,PayPal"
   - "RULE-SET,Telegram,Telegram"
