@@ -193,12 +193,6 @@ rule-providers:
     url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix_No_Resolve.yaml"
     interval: 86400
     path: ./ruleset/Netflix_No_Resolve.yaml
-  Disney+:
-    type: http
-    behavior: classical
-    url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Disney/Disney_No_Resolve.yaml"
-    interval: 86400
-    path: ./ruleset/Disney_No_Resolve.yaml
   TikTok:
     type: http
     behavior: classical
@@ -262,7 +256,6 @@ rule-providers:
 rules:
   - "RULE-SET,Microsoft,Microsoft"
   - "RULE-SET,TikTok,TikTok"
-  - "RULE-SET,Disney+,Disney+"
   - "RULE-SET,Spotify,Spotify"
   - "RULE-SET,Steam,Steam"
   - "RULE-SET,PayPal,PayPal"
