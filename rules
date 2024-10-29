@@ -233,12 +233,7 @@ rule-providers:
     url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/Lan/Lan_No_Resolve.yaml"
     interval: 86400
     path: ./ruleset/Lan_No_Resolve.yaml
-  ChinaMax:
-    type: http
-    behavior: classical
-    url: "https://raw.gitmirror.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical_No_IPv6_No_Resolve.yaml"
-    interval: 86400
-    path: ./ruleset/ChinaMax_Classical_No_IPv6_No_Resolve.yaml
+  
 rules:
   - "RULE-SET,Microsoft,Microsoft"
   - "RULE-SET,TikTok,TikTok"
@@ -254,6 +249,5 @@ rules:
   - "RULE-SET,Bahamut,Bahamut"
   - "RULE-SET,BiliBili,BiliBili"
   - "RULE-SET,Lan,DIRECT"
-  - "RULE-SET,ChinaMax,DIRECT"
   - "GEOIP,CN,DIRECT"
   - "MATCH,Eee"
