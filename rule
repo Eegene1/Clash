@@ -257,5 +257,4 @@ rules:
   - "RULE-SET,BiliBili,BiliBili"
   - "RULE-SET,Lan,DIRECT"
   - "RULE-SET,ChinaMax,DIRECT"
-  - "GEOIP,CN,DIRECT"
   - "MATCH,Eee"
